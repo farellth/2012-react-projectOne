@@ -12,6 +12,16 @@ React
 Redux
 HTML/CSS
 
+#### Features
+- Any employee can submit a reimbursement request
+- Any approver can ask for further infromation from the requestor or any previous approver
+- A benefits coordinator can change the reimbursement amount
+- The requestor can accept or decline the change in amount
+- The requestor can cancel their request at any time
+- The requestor can submit their final grade
+- Upon grade submission, an approver will confirm or deny the request
+- The available, pending, and awarded reimbursement amounts will be automatically tracked and updated throughout the claim process
+
 #### Setup
 For both the front and back end:
 
