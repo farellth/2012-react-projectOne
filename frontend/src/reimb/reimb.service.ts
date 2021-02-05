@@ -5,7 +5,7 @@ import { Reimb } from './reimb';
 class ReimbService {
     private URI: string;
     constructor() {
-        this.URI = 'http://localhost:3000/reimbs';
+        this.URI = process.env.REACT_APP_SERVER_URI + 'reimbs';
     }
 
     getAllReimbs(): Promise<Reimb[]> {

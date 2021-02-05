@@ -4,7 +4,7 @@ import { User } from './user';
 class UserService {
     private URI: string;
     constructor() {
-        this.URI = 'http://localhost:3000/users';
+        this.URI = process.env.REACT_APP_SERVER_URI + 'users';
     }
 
     login(user: User): Promise<User> {
